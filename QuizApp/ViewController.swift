@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var quizStart: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        quizStart.layer.cornerRadius = 10
     }
 
-
+    //画面遷移してクイズを始める
+    @IBAction func quizStartButton(_ sender: Any) {
+        let storyBorad = UIStoryboard(name: "quiz", bundle: nil)
+        
+        let quizViewController = storyBorad.instantiateViewController(identifier: "quizViewController") as! QuizViewController
+        
+        self.present(quizViewController, animated: true, completion: nil)
+    }
+    
 }
 

@@ -12,9 +12,16 @@
 		C074ABE72520679400A1BF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074ABE62520679400A1BF7D /* ViewController.swift */; };
 		C074ABEA2520679400A1BF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C074ABE82520679400A1BF7D /* Main.storyboard */; };
 		C074ABEC2520679900A1BF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C074ABEB2520679900A1BF7D /* Assets.xcassets */; };
-		C074ABEF2520679900A1BF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C074ABED2520679900A1BF7D /* LaunchScreen.storyboard */; };
 		C074ABFA2520679A00A1BF7D /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074ABF92520679A00A1BF7D /* QuizAppTests.swift */; };
 		C074AC052520679A00A1BF7D /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074AC042520679A00A1BF7D /* QuizAppUITests.swift */; };
+		C074AC162521C35100A1BF7D /* quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C074AC152521C35100A1BF7D /* quiz.storyboard */; };
+		C074AC1E2521C3D000A1BF7D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074AC1D2521C3D000A1BF7D /* QuizViewController.swift */; };
+		C074AC262521EBC600A1BF7D /* AllQuestionsCorrect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C074AC252521EBC600A1BF7D /* AllQuestionsCorrect.storyboard */; };
+		C074AC2B2521ED8D00A1BF7D /*  AllQuestionsCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074AC2A2521ED8D00A1BF7D /*  AllQuestionsCorrectViewController.swift */; };
+		C074AC302521EE8200A1BF7D /* SevenQuestionsCorrect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C074AC2F2521EE8200A1BF7D /* SevenQuestionsCorrect.storyboard */; };
+		C074AC352521EEA400A1BF7D /* SevenQuestionsCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074AC342521EEA400A1BF7D /* SevenQuestionsCorrectViewController.swift */; };
+		C074AC3A2521EF3C00A1BF7D /* SixAnderQuestionsCorrect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C074AC392521EF3C00A1BF7D /* SixAnderQuestionsCorrect.storyboard */; };
+		C074AC3F2521EF5100A1BF7D /* SixAnderQuestionsCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074AC3E2521EF5100A1BF7D /* SixAnderQuestionsCorrectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +48,6 @@
 		C074ABE62520679400A1BF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C074ABE92520679400A1BF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C074ABEB2520679900A1BF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C074ABEE2520679900A1BF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C074ABF02520679900A1BF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C074ABF52520679A00A1BF7D /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C074ABF92520679A00A1BF7D /* QuizAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		C074AC002520679A00A1BF7D /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C074AC042520679A00A1BF7D /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		C074AC062520679A00A1BF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C074AC152521C35100A1BF7D /* quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = quiz.storyboard; sourceTree = "<group>"; };
+		C074AC1D2521C3D000A1BF7D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		C074AC252521EBC600A1BF7D /* AllQuestionsCorrect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllQuestionsCorrect.storyboard; sourceTree = "<group>"; };
+		C074AC2A2521ED8D00A1BF7D /*  AllQuestionsCorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " AllQuestionsCorrectViewController.swift"; sourceTree = "<group>"; };
+		C074AC2F2521EE8200A1BF7D /* SevenQuestionsCorrect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SevenQuestionsCorrect.storyboard; sourceTree = "<group>"; };
+		C074AC342521EEA400A1BF7D /* SevenQuestionsCorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenQuestionsCorrectViewController.swift; sourceTree = "<group>"; };
+		C074AC392521EF3C00A1BF7D /* SixAnderQuestionsCorrect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SixAnderQuestionsCorrect.storyboard; sourceTree = "<group>"; };
+		C074AC3E2521EF5100A1BF7D /* SixAnderQuestionsCorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixAnderQuestionsCorrectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,16 @@
 				C074ABE42520679400A1BF7D /* SceneDelegate.swift */,
 				C074ABE62520679400A1BF7D /* ViewController.swift */,
 				C074ABE82520679400A1BF7D /* Main.storyboard */,
+				C074AC152521C35100A1BF7D /* quiz.storyboard */,
+				C074AC1D2521C3D000A1BF7D /* QuizViewController.swift */,
 				C074ABEB2520679900A1BF7D /* Assets.xcassets */,
-				C074ABED2520679900A1BF7D /* LaunchScreen.storyboard */,
 				C074ABF02520679900A1BF7D /* Info.plist */,
+				C074AC252521EBC600A1BF7D /* AllQuestionsCorrect.storyboard */,
+				C074AC2A2521ED8D00A1BF7D /*  AllQuestionsCorrectViewController.swift */,
+				C074AC2F2521EE8200A1BF7D /* SevenQuestionsCorrect.storyboard */,
+				C074AC342521EEA400A1BF7D /* SevenQuestionsCorrectViewController.swift */,
+				C074AC392521EF3C00A1BF7D /* SixAnderQuestionsCorrect.storyboard */,
+				C074AC3E2521EF5100A1BF7D /* SixAnderQuestionsCorrectViewController.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -231,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C074ABEF2520679900A1BF7D /* LaunchScreen.storyboard in Resources */,
+				C074AC302521EE8200A1BF7D /* SevenQuestionsCorrect.storyboard in Resources */,
 				C074ABEC2520679900A1BF7D /* Assets.xcassets in Resources */,
+				C074AC3A2521EF3C00A1BF7D /* SixAnderQuestionsCorrect.storyboard in Resources */,
 				C074ABEA2520679400A1BF7D /* Main.storyboard in Resources */,
+				C074AC262521EBC600A1BF7D /* AllQuestionsCorrect.storyboard in Resources */,
+				C074AC162521C35100A1BF7D /* quiz.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C074AC2B2521ED8D00A1BF7D /*  AllQuestionsCorrectViewController.swift in Sources */,
 				C074ABE72520679400A1BF7D /* ViewController.swift in Sources */,
+				C074AC3F2521EF5100A1BF7D /* SixAnderQuestionsCorrectViewController.swift in Sources */,
 				C074ABE32520679400A1BF7D /* AppDelegate.swift in Sources */,
 				C074ABE52520679400A1BF7D /* SceneDelegate.swift in Sources */,
+				C074AC1E2521C3D000A1BF7D /* QuizViewController.swift in Sources */,
+				C074AC352521EEA400A1BF7D /* SevenQuestionsCorrectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +330,6 @@
 				C074ABE92520679400A1BF7D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C074ABED2520679900A1BF7D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C074ABEE2520679900A1BF7D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FJPXLFFTZ;
 				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FJPXLFFTZ;
 				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
